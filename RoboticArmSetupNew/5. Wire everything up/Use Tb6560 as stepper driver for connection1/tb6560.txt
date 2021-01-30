@@ -1,0 +1,40 @@
+0 means Off
+1 means On
+
+For Axis 1 (from bottom to the top):
+Sw1    0  
+Sw2    1
+Sw3    1
+S1       1
+S2       0
+S3       0
+S4       1
+S5       0
+S6       0
+
+Axis2 (Both Controllers)
+
+111 000100
+
+Axis3
+
+111 001000
+
+Axis4 
+
+110 100100
+
+Axis 5
+
+011 100100
+
+
+For maximum torque:
+Geared stepper motor. Set excitation mode=2. And double the current.
+If the motor is rated 1.5amps. Set 3amps since 2 phase exciatation will consume double current. The torque will increase 30percent.
+
+For normal stepper without gear. Set exciattion=1/16 and normal current because exciatation=2, the motor goes too fast.
+
+http://andre.team9.99.org.nz/
+
+http://www.instructables.com/id/Using-a-Single-Axis-TB6560-Stepper-Driver-With-GRB/

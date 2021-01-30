@@ -1,0 +1,20 @@
+1.Open 1. Install python first folder. Install python-2.7.2x86.msi
+
+2.copy everything inside Python package folder to C:\Python27\Lib\site-packages
+
+3.copy everything in dll folder to C:\Windows\SysWOW64
+
+3.Open Run openvision second folder. Run Sentry Project.exe in Administrator mode. Right click Sentry Project.exe/property/compatibility/run this program in administrator mode/apply.
+
+4.
+If you do not want the software to open your default camera and you want to use a second usb webcam.
+Go to device manger and disable your default camera first.
+Run the program Sentry Project.exe. 
+Go to File/Open camera. File/Start Camera. 
+Enable Set Area. Then use your mouse to select the white A4 paper seen with your webcam. Press Set1. Now the software will only detect object inside the paper.
+Select detect dark object.
+Select output to text file. 
+Go to Python/Choose script/select findangle.py
+Python/Start
+
+5.At robotic software/configure computer vision/select the track.txt

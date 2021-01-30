@@ -1,0 +1,9 @@
+http://www.ebay.com/itm/4-5A-TB6600-TB6600HG-Single-Axis-Stepper-Motor-Driver-Controller-Replace-TB6560-/162217753511?hash=item25c4ee7ba7:g:8moAAOSwGtRXz93W
+
+https://www.youtube.com/watch?v=wBvEEqUqh1g
+
+http://diyprojects.eu/tb6600-4-5a-photos-without-heatsink/
+
+http://diyprojects.eu/wiring-and-running-tb6600-stepper-driver-with-arduino/
+
+Put enable pin to pin 2 of ramps1.4 driver

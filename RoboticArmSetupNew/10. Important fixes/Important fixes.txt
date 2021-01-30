@@ -1,0 +1,15 @@
+1. I cant find 5x8x10 self lubricating bearing also. I bought 5x7x10. It is only a bit loose fitting. If you want better fitting. You can use a lighter to burn the pla and let it melt onto the bearing surface. This will enlarge its diameter to 5x8x10. Either way, it wont affect the robotic arm operation. 
+
+2.Articulation 4. When you use the coupler to lock the stepper 17 shaft. It is recommended to use thread locker lottite blue or red on the screw. Due to vibration. This screw seems to loose overtime. And when you joint this stepper with a diameter 8mm shaft. This shaft you need to sand the surface down flat like the stepper shaft else you wont be able to use the coupler to lock it tight enough. It will loose overtime.
+
+3. Articulation 4. The stepper torque is insufficient. I recommend changing to this stepper. But you've to cut the internal arm stepper holder hole to bigger inside http://www.ebay.com/itm/Geeetech-stepper-motor-Nema17-shaft-for-5mm-GT2-pulley-RepRap-Prusa-Mendel-/261824101971?hash=item3cf5eebe53:g:eEIAAOSwBLlVEoS~
+
+4.The stepper that drives the rotating base is supplied with 1.6 amps. The twins (large ones) run with 3a each. The upper motor (3rd joint) is supplied with 1.9 amperes. The wrist stepper also runs with 1.6. The last engine (the smallest) is fed with 1.6 amps.
+
+5. Use loctite blue to lock all coupler screw. It will loose very fast.
+https://www.aliexpress.com/item/2-bottle-lot-Thread-locking-Adhesives-Super-Anaerobic-Type-Screw-Thread-Grain-Locking-Glue/32767377530.html?spm=2114.13010608.0.0.ZdGcCa
+
+6. Consider using TB6600 to drive nema23. Set it to 4.5amps. Higher current=higher torque:
+A http://www.ebay.com/itm/4-5A-TB6600-TB6600HG-Single-Axis-Stepper-Motor-Driver-Controller-Replace-TB6560-/162217753511?hash=item25c4ee7ba7:g:8moAAOSwGtRXz93W
+B http://diyprojects.eu/wiring-and-running-tb6600-stepper-driver-with-arduino/
+C http://diyprojects.eu/tb6600-4-5a-photos-without-heatsink/

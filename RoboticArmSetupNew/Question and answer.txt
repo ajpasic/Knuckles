@@ -1,0 +1,74 @@
+1. if i put license code it show me successful activated. but after new start program is not saved. need to activate again.
+Hi. Actually the activation is permanently activated but if the software crashed then it will become deactivated.
+
+2. in "running Mode" motors moving very fast. Is there any control about?
+When you record the gcode, it is already the slowest. The only way to make it go slower is using geared stepper motor instead of norml stepper motor.
+But when you playback the gcode. It will run slower since all motors need to be coordinated.
+If you want it to go even slower. You can open the gcode text file at C:\Program Files (x86)\Quantum Software\RoboticArm
+The default speed is F0.00047 You can change it to F0.00046 and it will go extremely slow.
+
+3. i want also to running gcode in cycle. Is it possible?
+For this, You need to open the gcode text file and duplicate the gcode so that it keep on repeating.
+
+4. do you plan to update your program someday ?
+When got update, will email you.
+
+5. edit of recording lines will be also good
+Same as above.
+
+6. I can't connect to the software. 
+
+What is the com port number at device manager. If the number is greater than 10.
+
+Change it to 1 to 5. Windows got some limitation for com port number greater than 10.
+
+To change com port number:
+
+https://thinksmartbox.com/answer/changing-the-com-port-for-a-usb-device/
+
+After changing and restart pc. You can open the com port number with Arduino serial monitor first. You should see some English words coming out from the Arduino screen. If you see English words on Arduino serial monitor means the firmware is ok else the upload is corrupted. 
+
+Xloader upload choose 115200 and mega to upload
+
+Arduino serial monitor choose 57600. Make sure you use usb cable to connect and not bluetooth because some pc cant connect with bluetooth due to driver issue.
+
+Question 7:
+What is the ideal dip switch and vref setting for TB6600 with a Nema 23 / 4.2A ?
+Currently my calc is 4.2A / 2.5 = 1.68 vref my dip switches are at 1on 2on 3off 4off. 
+
+Answer: If you are using this driver http://diyprojects.eu/tb6600-4-5a-photos-without-heatsink/
+Your settings 1ON,2ON,3OFF=1/16 steps. This is correct.
+Switch 4. Set it to off so that holding current is lesser because the motor will get very hot.
+ https://www.youtube.com/watch?v=wBvEEqUqh1g
+
+Question 8:
+What additional parts for I need to use a Joystick ?  Does it support wireless xbox ?
+or is it just a hardwired Playstation ? If so how do I connect it to the Ardunio ?
+
+Hi. It should work with any wired xbox gamepad and other wired gamepad. The software is configured to work with wired xbox gamepad. For other brand wired gamepad. The download included a software to make other brand gamepad to work as xbox gamepad. For wireless xbox gamepad. Not tested. Let me know if it works.
+To test:
+Connect xbox to pc, not Arduino. At gamepad. Press analog mode. Then open robotic software. Connect Arduino usb. Powerup ramps1.4.
+At desktop software, choose correct com port, baurate 57600. Press connect. Wait till connect button become disabled.
+This mean it is connected. Move the gamepad stick to verify if robotic arm will move.
+
+Question 9:
+Do you manually straighten the robot upwards MANUALLY before turning on the Robot
+to establish HOME ?  or can I do it via the software ? with some additional switches ?
+The moveo default position is always straight line. I left it straight line. Why you have to adjust it manually.
+The moveo should stand straight without any problem. Actually I like it. Got one robotic arm from kuka has the same default position. Straight line.
+
+Question 10:
+It seems like that no matter if I hit the up or down arrow, it keeps going in the same direction.
+Would you know if it’s a software setting or a wiring problem ?
+This problem is so common. Stepper motor got 4wires. Two wires one pair. Another two one pair.
+This one pair has to be shorted. Means if you measure the continuity with multimeter, you should hear the beep sound.
+Find the pairing first. Once found. Connect to ramps1.4 with this two pairs.
+When the above problem occurred. This means one wire is disconnected from ramps. Usually the problem is the connector which connects to ramps is spoiled because the connector will become spoiled and disconnected overtime.
+I have experienced this many times. Those wire connector doesn’t last. 
+
+Question 11:
+Whats the best method of Payment for your software?
+Paypal is secured and trusted by everyone ??
+
+
+
