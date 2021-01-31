@@ -1,2 +1,0 @@
-Articulation 5 use nema 14 gear
-https://www.omc-stepperonline.com/geared-stepper-motor/nema-14-stepper-motor-bipolar-l33mm-w-gear-raio-51-planetary-gearbox-14hs13-0804s-pg5.html?mfp=161-motor-nema-size%5BNema%2014%5D
